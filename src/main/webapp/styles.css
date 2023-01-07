@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+	background-image: url("https://cdn.pixabay.com/photo/2018/08/15/07/19/indian-flag-3607410__340.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom:30px;
+}
+
+nav{
+	background-color: orange;
+	font-size: 35px;
+	color:white;
+	display:flex;
+	justify-content: right;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+nav a{
+	color:white;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+nav a:hover{
+	color:black;
+}
+
+.welcome-form{
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
+
+.checkTable{
+	background-color:#FFF7E9;
+	height:87vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:30px;
+}
+
+.checkTable img{
+	height:90px;
+	width:90px;
+}
+
+.checkTable td,th{
+	padding:10px 60px;
+}
+
+.form-container {
+	
+	background-color:#F8EDE3;
+	font-size:30px;
+	width:40%;
+	display:flex;
+	justify-content:center;
+	margin-left:55%;
+	margin-top:8%;
+	margin-right:5%;
+	border-radius:10px;
+	padding-bottom: 20px;
+}
+
+
+
+.form-input{
+	width: 150px;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom:20px;
+	font-size:25px;
+	text-align: center;
+	background-color: #5F9DF7;
+	width: 80%;
+	border-style:solid;
+	border-color:black;
+	border-radius: 20px;
+	margin-left:10%;
+}
+
+.form-container label{
+	margin-left:30%;
+	
+}
+
+.form-button{
+	width: 150px;
+	height: 40px;
+	margin-top: 20px;
+	font-size:25px;
+	background-color: #5F9DF7;
+	width: 80%;
+	cursor:pointer;
+	border-radius: 20px;
+	margin-left:10%;
+	text-align:center;
+}
+
+.form-button1 {
+	width: 150px;
+	height: 40px;
+	margin-top: 20px;
+	font-size:35px;
+	width: 80%;
+	cursor:pointer;
+	border-radius: 20px;
+	margin-left:10%;
+	
+}
+.submit {
+	width: 150px;
+	height: 40px;
+	margin-top: 20px;
+	font-size:25px;
+	
+	width: 80%;
+	cursor:pointer;
+	border-radius: 20px;
+	margin-left:10%;
+}
+
+.form-container a{
+	text-align:center;
+	color:black;
+	margin-left:35%;
+
+}
+
+.form-container textarea{
+	margin-left:10%;
+	border-radius:10px;
+}
+
+.form-container a:hover{
+	color:blue;
+}
+
+.about{
+	font-family: Helvetica;
+	font-size:25px;
+	width:100vx;
+	height:80vh;
+	padding-left:20px;
+	opacity:0.8;
+	background-color:#FEFCF3;
+}
+
+.about p{
+	padding-top: 40px;
+	font-weight:bold;
+}
+
+.about img{
+	width:20%;
+	height:45%;
+	padding-right:100px;
+	
+	
+}
+
